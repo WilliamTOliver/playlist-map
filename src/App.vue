@@ -34,20 +34,20 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld />
+      <BeliefSelector />
     </v-main>
   </v-app>
 </template>
 
 <script lang="ts">
 import Vue from "vue";
-import HelloWorld from "./components/HelloWorld.vue";
+import BeliefSelector from "./components/BeliefSelector.vue";
 
 export default Vue.extend({
   name: "App",
 
   components: {
-    HelloWorld
+    BeliefSelector
   },
 
   data: () => ({
