@@ -48,10 +48,6 @@ export default Vue.extend({
 
   components: {
     BeliefSelector
-  },
-
-  data: () => ({
-    //
-  })
+  }
 });
 </script>
